@@ -102,7 +102,7 @@ Public Class TimerLayer
     Public pointToUpdateGui As New UpdateGuiDel(AddressOf Form1.UpdateGUI)
     Dim timer2 As New System.Timers.Timer(80)
     Dim TransportLayer As New UDPClass
-    Dim passingObject As New Object()
+    'Dim passingObject As New Object()
     Sub New()
         AddHandler timer2.Elapsed, AddressOf OnTimedEvent
         TransportLayer.Connect()
