@@ -109,7 +109,7 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(159, 20)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "I Need a Job in NY"
+        Me.Label2.Text = "Test Command Center"
         '
         'Label3
         '
